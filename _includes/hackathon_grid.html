@@ -8,15 +8,15 @@
       </div>
     </div>
     <div class="hackathon-flex-row">
-      {% for post in site.posts %}
+      {% for hack in site.posts %}
       <div class="hackathon-flex-item hackathon-item">
-        <a href="#hackathonModal-{{ post.modal-id }}" class="hackathon-link" data-toggle="modal">
+        <a href="#hackathonModal-{{ hack.modal-id }}" class="hackathon-link" data-toggle="modal">
           <div class="caption">
             <div class="caption-content">
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+          <img src="img/portfolio/{{ hack.img }}" class="img-responsive" alt="{{ hack.alt }}">
         </a>
       </div>
       {% endfor %}
