@@ -568,3 +568,65 @@ footer .footer-below {
       max-width: 23.5%;
     }
   } */
+
+
+
+
+.hackathon-modal .modal-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.hackathon-modal .modal-content h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.hackathon-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.hackathon-modal .modal-content .item-details {
+    margin: 30px 0;
+}
+
+.hackathon-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.hackathon-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.hackathon-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #{{ site.color.secondary }};
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.hackathon-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #{{ site.color.secondary }};
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}

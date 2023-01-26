@@ -1,6 +1,6 @@
-<!-- Portfolio Modals -->
-{% for post in site.posts %}
-<div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog"
+<!-- hackathon Modals -->
+{% for hack in site.hacks %}
+<div class="hackathon-modal modal fade" id="hackathonModal-{{ hack.modal-id }}" tabindex="-1" role="dialog"
   aria-hidden="true">
   <div class="modal-content">
     <div class="close-modal" data-dismiss="modal">
@@ -13,34 +13,34 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <div class="modal-body">
-            <h2>{{ post.title }}</h2>
+            <h2>{{ hack.title }}</h2>
             <hr class="star-primary">
-            {% if post.link %}
-            <a href="{{ post.link }}">
-              <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+            {% if hack.link %}
+            <a href="{{ hack.link }}">
+              <img src="img/hackathon/{{ hack.img }}" class="img-responsive img-centered" alt="{{ hack.alt }}">
             </a>
             {% else %}
-            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+            <img src="img/hackathon/{{ hack.img }}" class="img-responsive img-centered" alt="{{ hack.alt }}">
             {% endif %}
 
 
-            {% if post.description %}
-            <p>{{ post.description }}</p>
+            {% if hack.description %}
+            <p>{{ hack.description }}</p>
             {% endif %}
             <ul class="list-inline item-details">
-              {% if post.client %}
-              <li>Clients:
-                <strong>{{ post.client }}</strong>
+              {% if hack.client %}
+              <li>Client:
+                <strong>{{ hack.client }}</strong>
               </li>
               {% endif %}
-              {% if post.project-date %}
+              {% if hack.project-date %}
               <li>Date:
-                <strong>{{ post.project-date }}</strong>
+                <strong>{{ hack.project-date }}</strong>
               </li>
               {% endif %}
-              {% if post.category %}
+              {% if hack.category %}
               <li>Technologies:
-                <strong>{{ post.category }}</strong>
+                <strong>{{ hack.category }}</strong>
               </li>
               {% endif %}
             </ul>

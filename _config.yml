@@ -62,3 +62,11 @@ defaults:
       type: "posts"
     values:
       permalink: ""
+
+#for hacks
+defaults:
+  - scope:
+      path: ""
+      type: "hacks"
+    values:
+      permalink: ""
