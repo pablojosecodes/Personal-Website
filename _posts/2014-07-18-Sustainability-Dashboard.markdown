@@ -2,7 +2,7 @@
 layout: default
 modal-id: 5
 date: 2014-07-18
-img: hack.png
+img: globe.png
 alt: image-alt
 project-date: January 2023
 client: None
