@@ -1,4 +1,5 @@
 ---
+name: Researcher in a Box
 layout: default
 modal-id: 8
 date: 2014-07-16

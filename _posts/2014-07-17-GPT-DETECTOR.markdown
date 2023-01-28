@@ -1,4 +1,5 @@
 ---
+name: GPT Detector
 layout: default
 modal-id: 4
 img: market.png

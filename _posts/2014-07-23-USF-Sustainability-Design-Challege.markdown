@@ -1,4 +1,5 @@
 ---
+name: USF Design Challenge
 layout: default
 modal-id: 10
 date: 2014-07-20

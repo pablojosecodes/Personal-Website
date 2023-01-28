@@ -1,4 +1,5 @@
 ---
+name: MIT Reality Hack
 layout: default
 modal-id: 7
 date: 2014-07-20
